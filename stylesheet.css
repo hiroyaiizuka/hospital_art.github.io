@@ -25,6 +25,10 @@ a {
 
 
 
+
+
+/* containerクラスのCSSを指定してください */
+
 header{
 
     height: 65px;
@@ -74,6 +78,10 @@ header{
 
 
 
+
+/*-------  ここまでheader  --------*/
+
+
 .container{
     max-width: 1170px;
     width: 100%;
@@ -110,6 +118,16 @@ header{
     padding-top:25px;
   }
 
+  .heading1{
+    padding: 70px 0 70px 0 ;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+
+  }
+
+
+
   .lesson{
     float:left;
     width:25%;
@@ -118,6 +136,7 @@ header{
 
   .lesson-icon{
     position: relative;
+
   }
 
   .lesson-icon p{
